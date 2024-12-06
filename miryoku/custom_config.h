@@ -15,6 +15,12 @@ U_BOOT,            &u_to_U_TAP,       &u_to_U_EXTRA,     &u_to_U_BASE,      U_NA
 U_NA,              &kp RALT,          &u_to_U_NUM,       &u_to_U_NAV,       U_NA,              &kp HOME,          &kp PG_DN,         &kp PG_UP,         &kp END,           &kp INS,           \
 U_NP,              U_NP,              U_NA,              U_NA,              U_NA,              &kp SPACE,         &kp BSPC,          &kp DEL,           U_NP,              U_NP
 
+#define MIRYOKU_LAYER_SYM \
+&kp GRAVE,         &kp LBKT,          &kp RBKT,          &kp PIPE,          &kp ASTRK,         &kp AMPS,            &kp GT,             &kp LT,             &kp EQUAL,         &kp DQT,           \
+U_MT(LGUI, EXCL),  U_MT(LALT, LPAR),  U_MT(LCTRL, RPAR), U_MT(LSHIFT, AT),  &kp COLON,         &kp RA(LS(TILDE)),   U_MT(LSHFT, UNDER), U_MT(LCTRL, MINUS), U_MT(LALT, APOS),  U_MT(LGUI, SEMI),  \
+&kp PRCNT,         &kp LBRC,          &kp RBRC,          &kp TILDE,         &kp DLLR,          &kp BLSH,            &kp QMARK,          &kp COMMA,          &kp DOT,           &kp SLASH,         \
+U_NP,              U_NP,              &kp CARET,         &kp HASH,          &kp PLUS,          U_NA,                U_NA,               U_NA,               U_NP,              U_NP
+
 #define MIRYOKU_LAYOUTMAPPING_LILY58( \
      K00, K01, K02, K03, K04,                K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,                K15, K16, K17, K18, K19, \
