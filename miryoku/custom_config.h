@@ -17,8 +17,8 @@ U_NP,              U_NP,              U_NA,              U_NA,              U_NA
 
 #define MIRYOKU_LAYER_SYM \
 &kp GRAVE,         &kp LBKT,          &kp RBKT,          &kp PIPE,          &kp ASTRK,         &kp AMPS,            &kp GT,             &kp LT,             &kp EQUAL,         &kp DQT,           \
-U_MT(LGUI, EXCL),  U_MT(LALT, LPAR),  U_MT(LCTRL, RPAR), U_MT(LSHIFT, AT),  &kp COLON,         &kp RA(LS(TILDE)),   U_MT(LSHFT, UNDER), U_MT(LCTRL, MINUS), U_MT(LALT, APOS),  U_MT(LGUI, SEMI),  \
-&kp PRCNT,         &kp LBRC,          &kp RBRC,          &kp TILDE,         &kp DLLR,          &kp BLSH,            &kp QMARK,          &kp COMMA,          &kp DOT,           &kp SLASH,         \
+U_MT(LGUI, EXCL),  U_MT(LALT, LPAR),  U_MT(LCTRL, RPAR), U_MT(LSHFT, AT),   &kp COLON,         &kp RA(LS(TILDE)),   U_MT(LSHFT, UNDER), U_MT(LCTRL, MINUS), U_MT(LALT, APOS),  U_MT(LGUI, SEMI),  \
+&kp PRCNT,         &kp LBRC,          &kp RBRC,          &kp TILDE,         &kp DLLR,          &kp BSLH,            &kp QMARK,          &kp COMMA,          &kp DOT,           &kp SLASH,         \
 U_NP,              U_NP,              &kp CARET,         &kp HASH,          &kp PLUS,          U_NA,                U_NA,               U_NA,               U_NP,              U_NP
 
 #define MIRYOKU_LAYOUTMAPPING_LILY58( \
