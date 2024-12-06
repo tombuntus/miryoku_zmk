@@ -21,6 +21,7 @@ U_MT(LGUI, EXCL),  U_MT(LALT, LPAR),  U_MT(LCTRL, RPAR), U_MT(LSHFT, AT),   &kp 
 &kp PRCNT,         &kp LBRC,          &kp RBRC,          &kp BSLH,          &kp DLLR,          &kp NUBS,       &kp QMARK,          &kp COMMA,          &kp DOT,           &kp SLASH,         \
 U_NP,              U_NP,              &kp CARET,         &kp PLUS,          &kp HASH,          U_NA,                U_NA,               U_NA,               U_NP,              U_NP
 
+
 #define MIRYOKU_LAYOUTMAPPING_LILY58( \
      K00, K01, K02, K03, K04,                K05, K06, K07, K08, K09, \
      K10, K11, K12, K13, K14,                K15, K16, K17, K18, K19, \
